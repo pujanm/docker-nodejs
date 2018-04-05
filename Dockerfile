@@ -1,7 +1,6 @@
-FROM ubuntu
+FROM alpine:3.7
 
 # Install Node.js
-RUN apt-get update && apt-get install -y wget
 RUN \
   cd /tmp && \
   wget http://nodejs.org/dist/v0.10.39/node-v0.10.39-linux-x64.tar.gz && \
