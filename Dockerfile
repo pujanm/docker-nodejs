@@ -10,4 +10,4 @@ FROM alpine:3.5
 #  /usr/local/bin/npm -v
 
 RUN \
-	apk add --no-cache nodejs=7.10.1 nodejs-npm=4.2.0
+	apk add --no-cache bash nodejs=7.10.1 nodejs-npm=4.2.0
