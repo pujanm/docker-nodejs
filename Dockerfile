@@ -1,4 +1,4 @@
-FROM quay.io/falkonry/docker-alpine:3.6
+FROM quay.io/falkonry/docker-alpine:3.6-1
 
 # Install Node.js
 RUN \
