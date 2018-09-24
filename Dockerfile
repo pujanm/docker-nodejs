@@ -46,6 +46,7 @@ RUN addgroup -g 1000 node \
     && rm -Rf "node-v$NODE_VERSION" \
     && rm "node-v$NODE_VERSION.tar.xz" SHASUMS256.txt.asc SHASUMS256.txt
 
-RUN apk add python
-RUN apk add build-base
+RUN apk add python && \
+    apk add build-base && \
+    apk add openssh
 
